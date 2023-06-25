@@ -75,7 +75,7 @@ Please note that both datasets are included for illustrative purposes and to sho
 
 Feel free to explore and use these datasets to run the model and validate its performance.
 
-# GUI
+## GUI
 
 Generally, the system relies on deep learning and is created to forecast connections between articles. User can click "start predict" in order to begin the prediction process with the default dataset named iCite metadata dataset.
 ![gui-home-page](assets/gui-home-page.png)

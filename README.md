@@ -55,6 +55,8 @@ In this project, you will find the following components:
 
 - _utils:_ The utils of the project contain the algorithm to reduce the iCite dataset as mentioned in our article. The algorithm (`iCite-reduce-dataset.ipynb`) to reduce the dataset, if you are using Google Collab or Kaggle, then you may need to reduce the dataset. if so you can run this algorithm on your dataset. Note: if you want to reduce the model to its maximum you need to run the model until the output is the same.
 
+- _Datasets:_ The dataset of the project, cntains the Reduced iCite Dataset, and UCSB Dataset. Go to [Data](#data) section for more understanding about each one of the files.
+
 - _assets:_ The assets of the project, cntains the images for the readme file.
 
 ## Data
@@ -62,6 +64,16 @@ In this project, you will find the following components:
 Our project relies on specific datasets to perform temporal link prediction in weighted dynamic networks. The datasets used in this project are available at [figshare](https://nih.figshare.com/search?q=:keyword:%20%22Citation%20data%22). Please download the required datasets and ensure they are properly formatted for compatibility with the project code.
 
 If you want to use your own datasets, make sure they follow the required format specified in the project documentation. You can also explore the provided sample data to understand the structure and format of the input data.
+
+In this repository, you will find two datasets:
+
+1. Reduced iCite Dataset: We have provided a reduced dataset that we used to implement and evaluate our model. This dataset is specifically tailored for our project and serves as an example for running the model.
+
+2. UCSB Dataset: Additionally, we have included the UCSB dataset, which is referenced in our article. This dataset is widely used in the research community and provides a comprehensive collection of real-world data for link prediction tasks.
+
+Please note that both datasets are included for illustrative purposes and to showcase the functionality of our model. If you wish to use your own datasets, please ensure they adhere to the required format and structure as described in the project documentation.
+
+Feel free to explore and use these datasets to run the model and validate its performance.
 
 # GUI
 
